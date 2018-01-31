@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/teststyles.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+	  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	  crossorigin="anonymous"></script>
+    <script src="./JS/isotope.pkgd.js"></script>
+</head>
+<body>
+        <h1>Isotope Filtering</h1>
+
+        <div class="button-group filter">
+            <button class="button is-checked" data-name=".dog">dog</button>
+            <button class="button" data-name=".cat">cat</button>
+            <button class="button" data-name=".mouse">mouse</button>
+            <button class="button" data-name=".bird">bird</button>
+            <button class="button" data-name="*">all</button>
+        </div>
+
+
+        <div class="grid">
+            <div class="grid-item bird">Bird</div>
+            <div class="grid-item dog">dog</div>
+            <div class="grid-item bird">bird</div>
+            <div class="grid-item cat">cat</div>
+            <div class="grid-item bird">bird</div>
+            <div class="grid-item mouse">mouse</div>
+            <div class="grid-item mouse">mouse</div>
+            <div class="grid-item bird">bird</div>
+            <div class="grid-item dog">dog</div>
+            <div class="grid-item bird">bird</div>
+        </div> 
+    <script src="./JS/test.js"></script>
+</body>
+</html>
