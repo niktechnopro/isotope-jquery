@@ -4,12 +4,12 @@ body{
 
 .grid-item { 
     text-align: center;
-    width: 10%;
-    padding: 3%;
+    /* width: 10%; */
+    padding: 0%;
     margin: 1%;
 }
 
-.bird{
+/* .bird{
     background: salmon;
 }
 
@@ -23,5 +23,5 @@ body{
 
 .cat{
     background: green;
-}
+} */
 /* .grid-item--width2 { width: 5%; } */
